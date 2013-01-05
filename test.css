@@ -3,7 +3,7 @@ body {
 	background-color: #11c0ef;
 }
 
-#container {
+.container {
 	width: 700px;
 	height: 500px;
 	margin: 0 auto;
@@ -19,11 +19,26 @@ h2 {	background: aa00ff; }
 
 h3 {	background: FF00FF; }
 
-#padding { padding: 0px 80px 0px 15px; }
+.padding { padding: 0px 80px 0px 15px; }
 
 #snippet {
 	background: FFFFC0;
 	padding: 15px;
 	font-style: italic;
 	border-left: solid;
+}
+
+#rightRelative {
+	float: right;
+	position: relative;
+}
+
+#rightAbsolute {
+	float: right;
+	position: absolute;
+}
+
+#rightFixed {
+	float: right;
+	position: fixed;
 }
