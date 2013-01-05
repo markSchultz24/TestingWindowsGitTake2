@@ -1,4 +1,12 @@
-container {
-	width: 95px;
-	margin-left: auto;
+body {
+	text-align: center;
+	background-color: #11c0ef;
+}
+
+#container {
+	width: 700px;
+	height: 500px;
+	margin: 0 auto;
+	background-color: c0c0c0;
+	text-align: left;
 }
